@@ -17,7 +17,7 @@ import ScrollToTop from './components/scrollToTop/scrollToTop'
 function App() {
   return (
     <React.Fragment>
-    <Router>  
+    <Router history={history} basename={process.env.PUBLIC_URL}>  
     <ScrollToTop>
     <Layout>
     <NavigationBar/>
