@@ -1,0 +1,30 @@
+#home {
+  
+  content: "";
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  border-radius:10px;
+  clip-path: polygon(100% 1%, 0 100%, 100% 100%);
+
+background-image: url(../../assets/Photos/homebg.jpg);
+background-size:cover;
+
+height: 120vh;
+margin-top: 1em;
+
+
+
+}
+
+#in-home {
+  position: absolute;
+  height: 110%;
+  width: 90%;
+  background:  black;
+  clip-path: polygon(0 0, 100% 34%, 100% 100%, 49% 80%, 0 63%, 0% 25%);
+  border-radius: 10px;
+  top:5em;
+  
+}

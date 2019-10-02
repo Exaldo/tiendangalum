@@ -1,0 +1,91 @@
+#card-container {
+    max-width: 98%;
+    background: rgba(0, 0, 0, 0.6);
+    background: linear-gradient(#43AB92, #c93838 60%, #c93838 50%, #fff 100%) !important;
+   
+  
+
+    /* border: solid black 10px !important; */
+}
+
+#card-container-child{
+    
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+#box {
+    
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 1px 0px 1px;
+    position: relative;
+    background: #fff;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, .1)
+}
+
+#box:before{
+    border-radius: 5px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #13041a;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+#box:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+
+}
+
+#box h2 {
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    font-size: 3em;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.5;
+    transition: 0.8s;
+}
+
+#box:hover h2{
+    opacity: 1;
+    color: #fff;
+    transform: translateY(-40px);
+
+}
+
+#box h3 {
+    position: relative;
+    font-size: 1.5em;
+    z-index: 2;
+    color: #333;
+    transition:0.5s;
+}
+
+#box:hover h3 {
+    color: #fff;
+}
+
+#box .services-p {
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5s;
+}
+
+#box:hover h3, 
+#box:hover .services-p {
+    color: #fff;
+}

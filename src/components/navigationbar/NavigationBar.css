@@ -1,0 +1,30 @@
+.navbar {
+    /* color fondo del navbar con gradiente  */
+    
+    /* background: #43AB92;
+    background: -moz-linear-gradient(left, #43AB92 0%, #4BC1A4 86%, #58E2C1 100%);
+    background: -webkit-linear-gradient(left, #43AB92 0%, #4BC1A4 86%, #58E2C1 100%);
+    background: linear-gradient(to right, #43AB92 0%, #4BC1A4 86%, #58E2C1 100%); */
+
+    /* fondo de sombra */
+    -webkit-box-shadow: 0px 18px 19px -10px #000000; 
+    box-shadow: 0px 18px 19px -10px #000000;
+
+    border-radius: 10px;
+    margin-right: 0 !important;
+    flex-wrap: wrap;
+  
+}
+
+
+.logo, .navbar-nav {
+    color: orange !important;
+} 
+
+.nav-link a{
+color: #512c62;
+}
+
+.navbar-brand:hover, .navbar-nav:hover, .nav-link a:hover {
+    color: white !important;
+}

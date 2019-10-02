@@ -1,0 +1,17 @@
+#racoon {
+    width: 800px;
+    height: 500px;
+}
+
+#notfound {
+    
+/* min-width: 85vh; */
+min-height: 100vh;
+padding: 0;
+margin-right: 0;
+margin-left: auto;
+justify-content: center;
+align-self: stretch;
+text-align: center;
+color: red;
+}
