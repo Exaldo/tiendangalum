@@ -31,7 +31,7 @@ const NavigationBar = ()  => {
     return (
         
         <Navbar style={style} sticky={'top'} className="Navhead" expand="lg">
-            <Navbar.Brand className="logo" href="/"><img src="/" alt="Logo"/></Navbar.Brand>
+            <Link className="navbar-brand" to="/"><img alt="Logo"/></Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar.nav">
                 <Nav className="ml-auto">
