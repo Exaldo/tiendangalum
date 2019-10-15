@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/tiendangalum/static/css/main.04aad8a2.chunk.css",
-    "main.js": "/tiendangalum/static/js/main.b9ba5b4d.chunk.js",
-    "main.js.map": "/tiendangalum/static/js/main.b9ba5b4d.chunk.js.map",
+    "main.css": "/tiendangalum/static/css/main.c6cf3d1c.chunk.css",
+    "main.js": "/tiendangalum/static/js/main.46b5beb5.chunk.js",
+    "main.js.map": "/tiendangalum/static/js/main.46b5beb5.chunk.js.map",
     "runtime~main.js": "/tiendangalum/static/js/runtime~main.dc4836f0.js",
     "runtime~main.js.map": "/tiendangalum/static/js/runtime~main.dc4836f0.js.map",
-    "static/js/2.75d477f9.chunk.js": "/tiendangalum/static/js/2.75d477f9.chunk.js",
-    "static/js/2.75d477f9.chunk.js.map": "/tiendangalum/static/js/2.75d477f9.chunk.js.map",
+    "static/js/2.ac4f5dfa.chunk.js": "/tiendangalum/static/js/2.ac4f5dfa.chunk.js",
+    "static/js/2.ac4f5dfa.chunk.js.map": "/tiendangalum/static/js/2.ac4f5dfa.chunk.js.map",
     "index.html": "/tiendangalum/index.html",
-    "precache-manifest.51e4d1067991851f381cc55c004adbde.js": "/tiendangalum/precache-manifest.51e4d1067991851f381cc55c004adbde.js",
+    "precache-manifest.1cc93897eb411cca483c82be92e4351d.js": "/tiendangalum/precache-manifest.1cc93897eb411cca483c82be92e4351d.js",
     "service-worker.js": "/tiendangalum/service-worker.js",
-    "static/css/main.04aad8a2.chunk.css.map": "/tiendangalum/static/css/main.04aad8a2.chunk.css.map",
+    "static/css/main.c6cf3d1c.chunk.css.map": "/tiendangalum/static/css/main.c6cf3d1c.chunk.css.map",
     "static/media/customer-support.svg": "/tiendangalum/static/media/customer-support.30ef34f5.svg",
-    "static/media/email.svg": "/tiendangalum/static/media/email.e6956db2.svg",
+    "static/media/email.svg": "/tiendangalum/static/media/email.77c83e33.svg",
     "static/media/Home.css": "/tiendangalum/static/media/homebg.902de655.jpg",
-    "static/media/phone-book.svg": "/tiendangalum/static/media/phone-book.af47a023.svg",
-    "static/media/placeholder-white.svg": "/tiendangalum/static/media/placeholder-white.4b0ff2f3.svg",
-    "static/media/placeholder.svg": "/tiendangalum/static/media/placeholder.96938382.svg",
+    "static/media/phone-book.svg": "/tiendangalum/static/media/phone-book.6cca863d.svg",
+    "static/media/placeholder-white.svg": "/tiendangalum/static/media/placeholder-white.05e3ab33.svg",
+    "static/media/placeholder.svg": "/tiendangalum/static/media/placeholder.76fa68c4.svg",
     "static/media/racoon.png": "/tiendangalum/static/media/racoon.7f862e6e.png"
   }
 }
