@@ -22,7 +22,7 @@ const NavigationBar = ()  => {
         }
 
         let style = {
-            backgroundColor: change ? "transparent" : "#c93838",
+            backgroundColor: change ? "transparent" : "transparent",
             transition: "400ms ease-out",
             
             position: "top",

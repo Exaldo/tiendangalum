@@ -7,7 +7,8 @@ const CardLinks = () => {
     return (
         <Container className="card-container" >
             <Row  className="body-card">
-
+            
+            {/* //enlace a cotización */}
             <Col xs={12} sm={12} md= {6} lg={4} className="card">
                     <div className="face face1">
                         <div className="content">
@@ -24,6 +25,7 @@ const CardLinks = () => {
                     </div>
             </Col>
 
+            {/* //enlace a servicios */}
             <Col xs={12} sm={12} md= {6} lg={4} className="card">
                     <div className="face face1">
                         <div className="content">
@@ -31,7 +33,6 @@ const CardLinks = () => {
                             <h3>Servicios</h3>
                         </div>
                     </div>
-            
                     <div className="face face2">
                         <div className="content">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti</p>
@@ -40,10 +41,11 @@ const CardLinks = () => {
                     </div>
             </Col>
             
+            {/* //enlace al mapa */}
             <Col xs={12} sm={12} md= {12} lg={4} className="card">
                     <div className="face face1">
                         <div className="content">
-                            <img className="card-image" src={require('../../assets/icons/placeholder.svg')} alt="Desing"/>
+                            <img  className="card-image" src={require('../../assets/icons/placeholder.svg')} alt="Desing"/>
                             <h3>Mapa</h3>
                         </div>
                     </div>
@@ -51,7 +53,7 @@ const CardLinks = () => {
                     <div className="face face2">
                         <div className="content">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti</p>
-                        <a className="card-links" href="#">Encuentranos</a> 
+                        <Link className="card-links" to="/map">Encuentranos</Link> 
                         </div>
                     </div>
             </Col>

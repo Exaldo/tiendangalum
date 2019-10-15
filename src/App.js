@@ -7,7 +7,7 @@ import NoMatch from './components/nomatch/NoMatch'
 import Layout from './components/layout/Layout'
 import NavigationBar from './components/navigationbar/NavigationBar'
 import cardLinks from './components/cardlinks/CardLinks'
-// import LeftMenu from './components/leftmenu/LeftMenu'
+import GoogleMaps from './components/Gmaps/GoogleMaps'
 import './App.css'
 import Services from './components/Services/Services'
 import ResponsiveFooter from './components/footer/Responsivefooter'
@@ -25,7 +25,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
        <Route path="/services" component={Services} />
-         
+       <Route path="/map" component={GoogleMaps} />
         <Route component={NoMatch} />
       </Switch>
       </Layout>
