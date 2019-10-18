@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7291ca2813d613416508169608bf5504",
+    "revision": "5b2830e0c8d611d52dfe88f08611b3ea",
     "url": "/tiendangalum/index.html"
   },
   {
-    "revision": "45b5950087ebf84925c4",
-    "url": "/tiendangalum/static/css/main.c6cf3d1c.chunk.css"
+    "revision": "379874e59b5b0de9d820",
+    "url": "/tiendangalum/static/css/main.30d925e5.chunk.css"
   },
   {
-    "revision": "93ac88b66e1f417faed9",
-    "url": "/tiendangalum/static/js/2.ac4f5dfa.chunk.js"
+    "revision": "f33e93b0e57e0120c066",
+    "url": "/tiendangalum/static/js/2.ca17ae14.chunk.js"
   },
   {
-    "revision": "45b5950087ebf84925c4",
-    "url": "/tiendangalum/static/js/main.46b5beb5.chunk.js"
+    "revision": "379874e59b5b0de9d820",
+    "url": "/tiendangalum/static/js/main.1e8398cc.chunk.js"
   },
   {
     "revision": "b90f6330eac734db7e02",
     "url": "/tiendangalum/static/js/runtime~main.dc4836f0.js"
+  },
+  {
+    "revision": "d54353198b67ceaedce64b1eac25ed55",
+    "url": "/tiendangalum/static/media/cube_background.d5435319.jpg"
   },
   {
     "revision": "30ef34f598c22aaca89fdb2651fc9dc8",
