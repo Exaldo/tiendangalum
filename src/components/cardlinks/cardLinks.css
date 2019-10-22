@@ -1,8 +1,18 @@
 .card-container {
     max-width: 100% !important;
+    
 }
 
 .body-card {
+    background-size: 150px;
+    
+    background-image: url(../../assets/Backgrounds/cube_background.jpg);
+    border-radius: 10px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
     margin:20px 10px 0 10px;
     position: relative;
     display: flex;

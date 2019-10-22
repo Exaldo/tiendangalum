@@ -1,7 +1,8 @@
 import React from 'react'
-import  { Container, Row, Col }  from 'react-bootstrap'
-
+import  { Container, Row, Col, Button, ButtonToolbar }  from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 import './Services.css'
+import CustomCarousel from '../carousel/carousel'
 
 
 const Services = () => {
@@ -16,6 +17,7 @@ const Services = () => {
                         elit. Ipsa, numquam earum? Laborum at molestias exercitationem explicabo voluptate 
                         nemo magni provident earum rerum.
                         Cupiditate temporibus iste quas culpa quia id obcaecati!</p>
+                        <Link className="btn-services">  Ver fotos  </Link>
                
             </Col>
 
@@ -26,6 +28,7 @@ const Services = () => {
                         elit. Ipsa, numquam earum? Laborum at molestias exercitationem explicabo voluptate 
                         nemo magni provident earum rerum.
                         Cupiditate temporibus iste quas culpa quia id obcaecati!</p>
+                        <Link className="btn-services">  Ver fotos  </Link>
             </Col>
 
             <Col xs={12} md= {6} lg={4} id="box" >
@@ -35,8 +38,27 @@ const Services = () => {
                     elit. Ipsa, numquam earum? Laborum at molestias exercitationem explicabo voluptate 
                     nemo magni provident earum rerum.
                      Cupiditate temporibus iste quas culpa quia id obcaecati!</p>
+                     <Link className="btn-services">  Ver fotos  </Link>
+            </Col>
+            <Col xs={12} sm={12} md= {12} lg={12}>
+                <ButtonToolbar className="button-back">
+                <Link to="/"> 
+                <Button variant="dark" size="lg">Regresar</Button>
+          </Link>
+        </ButtonToolbar>
+        </Col>
+        </Row>
+        
+        <Row>
+            <Col xs={12} sm={12} md= {12} lg={12}>
+                <CustomCarousel/>
             </Col>
         </Row>
+
+
+
+
+
     </Container>  
     )
 }

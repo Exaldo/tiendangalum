@@ -44,7 +44,7 @@ const NavigationBar = ()  => {
                     <Nav.Item>
                         <Link to="/" className="nav-link">
                             
-                             Home 
+                             Contacto
                             
                         </Link>
                     </Nav.Item>
@@ -52,7 +52,7 @@ const NavigationBar = ()  => {
                     <Nav.Item>
                         <Link to="/" className="nav-link">
                             
-                                Home 
+                                Mapa 
                             
                         </Link>
                     </Nav.Item>

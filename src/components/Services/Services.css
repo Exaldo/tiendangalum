@@ -39,6 +39,7 @@
     transform: scaleY(0);
     transform-origin: top;
     transition: transform 0.5s;
+    border: solid purple 5px;
 }
 
 #box:hover:before{
@@ -61,7 +62,7 @@
 
 #box:hover h2{
     opacity: 1;
-    color: #fff;
+    color: #c93838;
     transform: translateY(-40px);
 
 }
@@ -85,7 +86,36 @@
     transition: 0.5s;
 }
 
+.btn-services{
+    text-decoration: none !important;
+    color:transparent;
+    padding: 20px;
+}
+
+#box:hover .btn-services{
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    font-size: 3em;
+    transition: 0.8s;
+    transform: translateY(70px);
+    
+    border-radius: 5px;
+    
+    
+   
+}
+
+.btn-services:hover{
+    -webkit-box-shadow:0px 0px 70px 25px #ffa500 ;
+    -moz-box-shadow:0px 0px 70px 25px #ffa500 ;
+    box-shadow:0px 0px 70px 25px #ffa500 ;
+    background:orange;
+    opacity: 1;
+}
+
+
 #box:hover h3, 
-#box:hover .services-p {
+#box:hover .services-p .btn-services{
     color: #fff;
 }
