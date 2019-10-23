@@ -1,30 +1,79 @@
 .navbar {
-    /* color fondo del navbar con gradiente  */
-    
-    /* background: #43AB92;
+  /* color fondo del navbar con gradiente  */
+
+  /* background: #43AB92;
     background: -moz-linear-gradient(left, #43AB92 0%, #4BC1A4 86%, #58E2C1 100%);
     background: -webkit-linear-gradient(left, #43AB92 0%, #4BC1A4 86%, #58E2C1 100%);
     background: linear-gradient(to right, #43AB92 0%, #4BC1A4 86%, #58E2C1 100%); */
 
-    /* fondo de sombra */
-    -webkit-box-shadow: 0px 18px 19px -10px #000000; 
-    box-shadow: 0px 18px 19px -10px #000000;
+  /* fondo de sombra */
+  -webkit-box-shadow: 0px 18px 19px -10px #000000;
+  box-shadow: 0px 18px 19px -10px #000000;
 
-    border-radius: 10px;
-    margin-right: 0 !important;
-    flex-wrap: wrap;
-  
+  border-radius: 10px;
+  margin-right: 0 !important;
+  flex-wrap: wrap;
 }
 
-
-.logo, .navbar-nav {
-    color: orange !important;
-} 
-
-.nav-link a{
-color: #512c62;
+.logo,
+.navbar-nav {
+  color: orange !important;
 }
 
-.navbar-brand:hover, .navbar-nav:hover, .nav-link a:hover {
-    color: white !important;
+.navbar-brand:hover,
+.navbar-nav:hover,
+.nav-link a:hover {
+  color: white !important;
+}
+
+.links {
+  font-weight: 500 !important;
+  opacity: 1 !important;
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.glow:hover {
+  color: #c93838 !important;
+  -webkit-animation: glow 1s ease-in-out infinite alternate !important;
+  -moz-animation: glow 1s ease-in-out infinite alternate !important;
+  animation: glow 1s ease-in-out infinite alternate !important;
+}
+
+/* glow */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6,
+      0 0 80px #ff4da6;
+  }
+}
+/* webkit animation */
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6,
+      0 0 80px #ff4da6;
+  }
+}
+
+/* mozilla animation */
+@-moz-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6,
+      0 0 80px #ff4da6;
+  }
 }

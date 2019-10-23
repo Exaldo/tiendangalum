@@ -1,121 +1,125 @@
-#card-container {
-    max-width: 98%;
-    background: rgba(0, 0, 0, 0.6);
-    background: linear-gradient(#43AB92, #c93838 60%, #c93838 50%, #fff 100%) !important;
-   
-  
+@import url("https://fonts.googleapis.com/css?family=Holtwood+One+SC");
 
-    /* border: solid black 10px !important; */
+#card-container {
+  max-width: 98%;
+  background: rgba(0, 0, 0, 0.6);
+  background: linear-gradient(
+    #43ab92,
+    #c93838 60%,
+    #c93838 50%,
+    #fff 100%
+  ) !important;
+
+  /* border: solid black 10px !important; */
 }
 
-#card-container-child{
-    
-    padding: 1em;
-    display: flex;
-    justify-content: space-around;
-
-    
+#card-container-child {
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
 }
 #box {
-    
-    text-align: center;
-    border-radius: 5px;
-    margin: 10px 1px 0px 1px;
-    position: relative;
-    background: #fff;
-    padding: 100px 40px 60px;
-    box-shadow: 0 15px 45px rgba(0, 0, 0, .1)
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px 1px 0px 1px;
+  position: relative;
+  background: #fff;
+  padding: 100px 40px 60px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
 }
 
-#box:before{
-    border-radius: 5px;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #13041a;
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: transform 0.5s;
-    border: solid purple 5px;
+#box:before {
+  border-radius: 5px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #13041a;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+  border: solid purple 5px;
 }
 
-#box:hover:before{
-    transform: scaleY(1);
-    transform-origin: bottom;
-    transition: transform 0.5s;
-
+#box:hover:before {
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
 }
 
 #box h2 {
-    position: absolute;
-    left: 40px;
-    top: 50px;
-    font-size: 3em;
-    font-weight: 800;
-    z-index: 1;
-    opacity: 0.5;
-    transition: 0.8s;
+  position: absolute;
+  left: 40px;
+  top: 50px;
+  font-size: 3em;
+  font-weight: 800;
+  z-index: 1;
+  opacity: 0.5;
+  transition: 0.8s;
+  color: rgba(235, 255, 237, 0.56);
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+  transition: 0.5s;
+  font-family: "Holtwood One SC", serif;
 }
 
-#box:hover h2{
-    opacity: 1;
-    color: #c93838;
-    transform: translateY(-40px);
-
+#box:hover h2 {
+  opacity: 1;
+  color: #c93838;
+  transform: translateY(-40px);
 }
 
 #box h3 {
-    position: relative;
-    font-size: 1.5em;
-    z-index: 2;
-    color: #333;
-    transition:0.5s;
+  position: relative;
+  font-size: 1.5em;
+  z-index: 2;
 }
 
 #box:hover h3 {
-    color: #fff;
+  color: #fff;
 }
 
-#box .services-p {
-    position: relative;
-    z-index: 2;
-    color: #555;
-    transition: 0.5s;
+#box #services-p {
+  position: relative;
+  z-index: 2;
+  color: #555;
+  transition: 0.5s;
+  text-align: justify !important;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.btn-services{
-    text-decoration: none !important;
-    color:transparent;
-    padding: 20px;
+.btn-services {
+  text-decoration: none !important;
+  color: transparent;
+  padding: 20px;
+  margin-top: 100px !important;
 }
 
-#box:hover .btn-services{
-    color: #fff;
-    z-index: 1;
-    position: relative;
-    font-size: 3em;
-    transition: 0.8s;
-    transform: translateY(70px);
-    
-    border-radius: 5px;
-    
-    
-   
+#box:hover .btn-services {
+  color: #c93838;
+  z-index: 1;
+  position: relative;
+  font-size: 1em;
+  transition: 0.8s;
+  /* transform: translateY(50px);
+  transform: translateX(-10px); */
+  /* margin: auto; */
+  border-radius: 5px;
 }
 
-.btn-services:hover{
-    -webkit-box-shadow:0px 0px 70px 25px #ffa500 ;
-    -moz-box-shadow:0px 0px 70px 25px #ffa500 ;
-    box-shadow:0px 0px 70px 25px #ffa500 ;
-    background:orange;
-    opacity: 1;
+.btn-services:hover {
+  -webkit-box-shadow: 0px 0px 70px 25px #ffa500;
+  -moz-box-shadow: 0px 0px 70px 25px #ffa500;
+  box-shadow: 0px 0px 70px 25px #ffa500;
+  background: orange;
+  opacity: 1;
 }
 
+#box:hover h3,
+#box:hover #services-p {
+  color: #fff !important;
+}
 
-#box:hover h3, 
-#box:hover .services-p .btn-services{
-    color: #fff;
+.mycarousel {
 }
