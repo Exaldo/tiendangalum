@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7de89ce05e8fc8c192612ee837aeff6",
+    "revision": "5bfdc77d57c0a07dcd98ab5730adde89",
     "url": "/tiendangalum/index.html"
   },
   {
-    "revision": "083631476d5947c04c4d",
-    "url": "/tiendangalum/static/css/main.2ddbaf18.chunk.css"
+    "revision": "0b2c6d13199a058067ce",
+    "url": "/tiendangalum/static/css/main.847ea951.chunk.css"
   },
   {
-    "revision": "6c149f7148f1f1125bce",
-    "url": "/tiendangalum/static/js/2.e5d26e0b.chunk.js"
+    "revision": "00ad6d5300bbd422bfcd",
+    "url": "/tiendangalum/static/js/2.c644427d.chunk.js"
   },
   {
-    "revision": "083631476d5947c04c4d",
-    "url": "/tiendangalum/static/js/main.089ea969.chunk.js"
+    "revision": "0b2c6d13199a058067ce",
+    "url": "/tiendangalum/static/js/main.e3c766e6.chunk.js"
   },
   {
     "revision": "b90f6330eac734db7e02",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "902de655683726b0767053790845e9fd",
     "url": "/tiendangalum/static/media/homebg.902de655.jpg"
+  },
+  {
+    "revision": "1689d1f573f26719fe7d13e401accb1c",
+    "url": "/tiendangalum/static/media/logo.1689d1f5.png"
   },
   {
     "revision": "af47a02330f466d88ae7282d7dfa8405",
