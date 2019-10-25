@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5bfdc77d57c0a07dcd98ab5730adde89",
+    "revision": "7325e430ac3f6580b9197a7a91b8274b",
     "url": "/tiendangalum/index.html"
   },
   {
-    "revision": "0b2c6d13199a058067ce",
-    "url": "/tiendangalum/static/css/main.847ea951.chunk.css"
+    "revision": "3a492c9f9b150bed139e",
+    "url": "/tiendangalum/static/css/main.1628cc59.chunk.css"
   },
   {
     "revision": "00ad6d5300bbd422bfcd",
     "url": "/tiendangalum/static/js/2.c644427d.chunk.js"
   },
   {
-    "revision": "0b2c6d13199a058067ce",
-    "url": "/tiendangalum/static/js/main.e3c766e6.chunk.js"
+    "revision": "3a492c9f9b150bed139e",
+    "url": "/tiendangalum/static/js/main.b197d999.chunk.js"
   },
   {
     "revision": "b90f6330eac734db7e02",
