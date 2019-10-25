@@ -17,12 +17,17 @@ const Home = () => {
             />
           </Col>
           <Col xs={12} sm={12} md={6} lg={6}>
-            <h2 className="home-title">NG ALUMINIO Y VIDRIO</h2>
+            <div className="test">
+              <h2 className="home-title">NG ALUMINIO Y VIDRIO</h2>
+            </div>
             <p className="home-text1">
-              Seriedad y compromiso <br /> con nuestros clientes nos distinguen{" "}
+              Seriedad y compromiso con nuestros clientes nos distinguen.{" "}
             </p>
-            <p className="home-text2">13 AÑOS DE EXPERIENCIA</p>
-            <p className="home-text3">OFERTAS Y PROMOCIONES</p>
+            <p className="home-text2">13 AÑOS DE EXPERIENCIA.</p>
+            <p className="home-text3 text-glow">
+              OFERTAS
+              <br /> Y <br /> PROMOCIONES
+            </p>
           </Col>
         </Row>
 
@@ -33,9 +38,8 @@ const Home = () => {
         </Row>
 
         <div id="home"></div>
-
-        <CardLinks />
       </Container>
+      <CardLinks />
     </React.Fragment>
   );
 };
