@@ -2,21 +2,20 @@
 @import url("https://fonts.googleapis.com/css?family=Galindo");
 @import url("https://fonts.googleapis.com/css?family=Chango");
 
-#home {
+/* #home {
   content: "";
   position: relative;
   left: 0;
   right: 0;
   z-index: 10;
   border-radius: 10px;
-  clip-path: polygon(100% 1%, 0 100%, 100% 100%);
 
-  background-image: url(../../assets/Photos/homebg.jpg);
+  background-image: url(../../assets/Photos/homebg1.jpg);
   background-size: cover;
 
-  height: 120vh;
+  height: 100vh;
   margin-top: 1em;
-}
+} */
 
 #in-home {
   position: absolute;
@@ -40,8 +39,11 @@
     text-align: center;
     color: rgb(212, 249, 6);
     text-shadow: rgb(0, 0, 0) -5px 6px 6px;
-    font-size: 8.5vh;
+    font-size: 9.3vh;
     background-color: rgb(231, 124, 24);
+    border: solid black 3px;
+    border-radius: 10px;
+    padding: 7px;
   }
 }
 
@@ -54,6 +56,8 @@
     text-shadow: rgb(0, 0, 0) -5px 6px 6px;
     font-size: 6vh;
     background-color: rgb(231, 124, 24);
+    border: solid black 3px;
+    border-radius: 10px;
   }
 }
 
@@ -79,11 +83,16 @@
 /* if the screen is 601px or more then: */
 @media screen and (min-width: 601px) {
   .home-text3 {
+    background-image: url("../../assets/Backgrounds/promotion.png");
+    background-size: 100% 100%;
+    padding: 100px;
+    position: relative;
     text-align: center;
+
     font-size: 5vh;
     font-family: Chango, cursive;
     font-weight: bold;
-    color: rgb(0, 175, 250);
+    color: #0e35f1;
     margin: 40px;
     text-shadow: rgb(0, 0, 0) 5px 5px 5px;
     /* animation code */
@@ -97,11 +106,14 @@
 /* if the screen is 600px or less then: */
 @media screen and (max-width: 600px) {
   .home-text3 {
+    background-image: url("../../assets/Backgrounds/promotion.png");
+    background-size: 105% 110%;
+    padding: 31px;
     text-align: center;
     font-size: 3vh;
     font-family: Chango, cursive;
     font-weight: bold;
-    color: rgb(0, 175, 250);
+    color: #0e35f1;
     margin: 40px;
     text-shadow: rgb(0, 0, 0) 5px 5px 5px;
     /* animation code */
@@ -156,4 +168,39 @@
     -ms-transform: scale(1);
     transform: scale(1);
   }
+}
+
+.landpage-image {
+  float: right;
+  border-radius: 10px;
+  border: 5px groove #c8213e;
+}
+
+/* if the screen is 600px or less then: */
+@media screen and (max-width: 600px) {
+  .landpage-image {
+    justify-content: inherit;
+    border-radius: 10px;
+    border: 5px groove gray;
+  }
+}
+
+/* if the screen is 601px or more then: */
+@media screen and (min-width: 601px) {
+  .landpage-image {
+    width: 40%;
+    align-items: center;
+    border-radius: 10px;
+    border: 5px groove gray;
+  }
+}
+
+.landpage-container {
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.landpage-container-child {
+  display: flex;
+  justify-content: center;
 }

@@ -17,13 +17,12 @@ const Home = () => {
             />
           </Col>
           <Col xs={12} sm={12} md={6} lg={6}>
-            <div className="test">
-              <h2 className="home-title">NG ALUMINIO Y VIDRIO</h2>
-            </div>
+            <h2 className="home-title">NG ALUMINIO Y VIDRIO</h2>
             <p className="home-text1">
               Seriedad y compromiso con nuestros clientes nos distinguen.{" "}
             </p>
             <p className="home-text2">13 AÑOS DE EXPERIENCIA.</p>
+
             <p className="home-text3 text-glow">
               OFERTAS
               <br /> Y <br /> PROMOCIONES
@@ -31,9 +30,20 @@ const Home = () => {
           </Col>
         </Row>
 
-        <Row>
-          <Col xs={12} sm={12} md={12} lg={12}>
-            <div id="in-home"></div>
+        <Row className="landpage-container">
+          <Col
+            xs={11}
+            sm={12}
+            md={12}
+            lg={12}
+            className="landpage-container-child"
+          >
+            <Image
+              className="landpage-image"
+              src={require("../../assets/Photos/homebg1.jpg")}
+              alt="cover"
+              fluid
+            ></Image>
           </Col>
         </Row>
 
