@@ -8,21 +8,22 @@ const Home = () => {
   return (
     <React.Fragment>
       <Container className="home-c">
-        <Row>
-          <Col xs={12} sm={12} md={6} lg={6}>
+        <Row className="justify-content-center">
+          <Col xs={12} sm={12} md={12} lg={6}>
             <Image
               src={require("../../assets/Photos/logo.png")}
               alt="logo"
               fluid
             />
           </Col>
-          <Col xs={12} sm={12} md={6} lg={6}>
+          <Col xs={12} sm={12} md={12} lg={6}>
             <h2 className="home-title">NG ALUMINIO Y VIDRIO</h2>
             <p className="home-text1">
-              Seriedad y compromiso con nuestros clientes nos distinguen.{" "}
+              SERIEDAD Y COMPROMISO CON NUESTROS CLIENTES NOS DISTINGUEN{" "}
             </p>
-            <p className="home-text2">13 AÑOS DE EXPERIENCIA.</p>
-
+            <p className="home-text2">13 AÑOS DE EXPERIENCIA</p>
+          </Col>
+          <Col xs={12} sm={12} md={12} lg={6} className="">
             <p className="home-text3 text-glow">
               OFERTAS
               <br /> Y <br /> PROMOCIONES

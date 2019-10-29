@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 const CardLinks = () => {
   return (
     <Container className="card-container">
-      <Row className="body-card">
+      <Row className="body-card justify-content-around">
         {/* //enlace a cotización */}
-        <Col xs={12} sm={8} md={6} lg={4} className="card">
+        <Col xs={12} sm={8} md={6} lg={3} className="card">
           <div className="face face1">
             <div className="content">
               <img
@@ -32,7 +32,7 @@ const CardLinks = () => {
         </Col>
 
         {/* //enlace a servicios */}
-        <Col xs={12} sm={8} md={6} lg={4} className="card">
+        <Col xs={12} sm={8} md={6} lg={3} className="card">
           <div className="face face1">
             <div className="content">
               <img
@@ -58,7 +58,7 @@ const CardLinks = () => {
         </Col>
 
         {/* //enlace al mapa */}
-        <Col xs={12} sm={8} md={7} lg={4} className="card">
+        <Col xs={12} sm={8} md={7} lg={3} className="card">
           <div className="face face1">
             <div className="content">
               <img

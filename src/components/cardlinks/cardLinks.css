@@ -1,6 +1,7 @@
 .card-container {
   max-width: 100% !important;
   /* height: 90vh; */
+  padding: 0px px !important;
 }
 
 .body-card {
