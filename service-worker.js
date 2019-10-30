@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tiendangalum/precache-manifest.4c0196da84f0a9c7e62f48db94cf198d.js"
+  "/tiendangalum/precache-manifest.6cdc6cd737a501510a9c8e5026ab17de.js"
 );
 
 self.addEventListener('message', (event) => {
