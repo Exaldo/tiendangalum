@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button, ButtonToolbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./Services.css";
 import CustomCarousel from "../carousel/carousel";
 
@@ -14,10 +14,22 @@ const Services = () => {
             <h3></h3>
             <p id="services-p">
               Trabajamos con aluminios y herrajes de gran calidad, todo tipo de
-              series tradicionales y españolas{" "}
+              series tradicionales y españolas
             </p>
             <br />
-            <Link className="btn-services"> Ver fotos </Link>
+            <a href="#aluminio" className="btn-services">
+              <Link
+                to="aluminio"
+                className="btn-services"
+                activeClass="active"
+                spy={true}
+                offset={-70}
+                duration={500}
+                smooth={true}
+              >
+                Ver fotos
+              </Link>
+            </a>
           </Col>
 
           <Col xs={12} md={6} lg={4} id="box">
@@ -29,7 +41,19 @@ const Services = () => {
               y esmerilada.
             </p>
             <br />
-            <Link className="btn-services"> Ver fotos </Link>
+            <a href="#vidrio" className="btn-services">
+              <Link
+                to="vidrio"
+                className="btn-services"
+                activeClass="active"
+                spy={true}
+                offset={-70}
+                duration={500}
+                smooth={true}
+              >
+                Ver fotos
+              </Link>
+            </a>
           </Col>
 
           <Col xs={12} md={6} lg={4} id="box">
@@ -41,7 +65,19 @@ const Services = () => {
             </p>
             <br />
 
-            <Link className="btn-services"> Ver fotos </Link>
+            <a href="#otros" className="btn-services">
+              <Link
+                to="otros"
+                className="btn-services"
+                activeClass="active"
+                spy={true}
+                offset={-70}
+                duration={500}
+                smooth={true}
+              >
+                Ver fotos
+              </Link>
+            </a>
           </Col>
           <Col xs={12} sm={12} md={12} lg={12}>
             <ButtonToolbar className="button-back">
@@ -54,10 +90,33 @@ const Services = () => {
           </Col>
         </Row>
       </Container>
-      <Container>
-        <Row>
-          <Col xs={12} sm={12} md={12} lg={12}>
-            <CustomCarousel className="mycarousel" />
+
+      {/* =================== Carousel ================= */}
+      <Container className="mw-100">
+        <Row className="d-flex ">
+          <Col xs={12} sm={12} md={12} lg={12} className="p-0">
+            <h1 id="aluminio">Alumino</h1>
+            <CustomCarousel
+              image1={require("../../assets/Photos/aluminio/1.jpg")}
+              image2={require("../../assets/Photos/aluminio/2.jpg")}
+              image3={require("../../assets/Photos/aluminio/3.jpg")}
+            />
+          </Col>
+          <Col xs={12} sm={12} md={12} lg={12} className="p-0">
+            <h1 id="vidrio">Vidrio</h1>
+            <CustomCarousel
+              image1={require("../../assets/Photos/vidrio/1.jpg")}
+              image2={require("../../assets/Photos/vidrio/2.jpg")}
+              image3={require("../../assets/Photos/vidrio/3.jpg")}
+            />
+          </Col>
+          <Col xs={12} sm={12} md={12} lg={12} className="p-0">
+            <h1 id="otros">Otros</h1>
+            <CustomCarousel
+              image1={require("../../assets/Photos/otros/1.jpg")}
+              image2={require("../../assets/Photos/otros/2.jpg")}
+              image3={require("../../assets/Photos/otros/3.jpg")}
+            />
           </Col>
         </Row>
       </Container>
